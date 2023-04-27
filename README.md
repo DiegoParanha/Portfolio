@@ -1,5 +1,4 @@
-# MERN-Stack Infrastructure
+# Diego's Portfolio
 
-Clone this repo to provide the starter code for a future MERN-Stack project
 
 
