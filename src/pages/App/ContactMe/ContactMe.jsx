@@ -1,10 +1,21 @@
 import './ContactMe.css'
+import Footer from '../../../components/Footer/Footer'
+
+const terms2 = [
+    'Coachable',
+    'Cooperative',
+    'Organized',
+    'Outgoing',
+    'Curious',
+    'Passionate',
+    'Driven'
+]
+
 export default function ContactMe() {
     return (
         <>
-        <div className="">
-            <h1 className='page-title'>Contact Me</h1>
-        </div>
+        <h1 className='page-title'>Contact Me</h1>
+        <h2 className='underTitle'>I look forward to hearing from you!</h2>
         <div className='contact-background'>
             <div className='contact-form'>
                 <input name="name" placeholder="Enter Your Full name" id="name-input"></input>
@@ -13,6 +24,7 @@ export default function ContactMe() {
                 <button className='contact-submit'>Submit</button>
             </div>
         </div>
+        <Footer />
         </>
     )
 }

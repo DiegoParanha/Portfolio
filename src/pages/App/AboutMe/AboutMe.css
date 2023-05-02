@@ -2,3 +2,73 @@
     color: white;
     text-align: center;
 }
+
+.name-2 {
+    color: aqua;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.intro-2 {
+    margin-left: 20px;
+}
+
+.intro-desc {
+    color: white;
+}
+
+.img-me {
+    height: 25vmin;
+    width: 25vmin;
+}
+
+.words {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+
+.languages {
+    display: grid;
+    justify-content: center;
+}
+.languages-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.frameWorks {
+    display: grid;
+    justify-content: center;
+}
+.frameWorks-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -210px;
+}
+
+.tools {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+.tools-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+}

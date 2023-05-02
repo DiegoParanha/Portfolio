@@ -1,13 +1,18 @@
 .page-title {
     color: white;
     text-align: center;
+    padding-top: 20px;
+}
+
+.underTitle {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
 }
 .contact-form {
-    /* display: grid;
-    grid-template-rows: 1fr 1fr 5fr 1fr; */
     display: flex;
     flex-direction: column;
-
+    justify-content: space-evenly;
 }
 
 .contact-background {
@@ -17,7 +22,9 @@
     box-shadow: 1px 1px 10px 10px #e7e0e0, 1px 1px 10px 10px #d2cbcb, 1px 1px 10px 10px #935555, 1px 1px 20px 5px #3f3d3d;
     border-radius: 20px;
     padding: 30px;
-    margin: 10vh 400px 0px 400px;
+    margin-top: 5vh;
+    margin-right: 30vw;
+    margin-left: 30vw;
 }
 
 #name-input {
@@ -41,4 +48,38 @@
     background: rgb(32, 32, 32);
     border: 2px solid lightblue;
 
+}
+
+.footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 30px;
+    display: grid;
+    padding: 5px 0 5px;
+    color: white;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20px;
+  }
+
+  .img-links-btn {
+    height: 50px;
+    margin: 0 15px 0 15px;
+  }
+
+@media (max-device-width:480px ) {
+ .contact-background {
+    margin-left: -1vw;
+    margin-right: -1vw;
+
+ }
+ .contact-form {
+    width: 50vw;
+ }
+
+ .group-2 {
+    display: flex;
+    justify-content: center;
+    padding-right: 60px;
+ }
 }

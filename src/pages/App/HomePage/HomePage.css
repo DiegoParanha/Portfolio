@@ -22,3 +22,48 @@
     -webkit-text-stroke-color: black;
     margin-top: -60px;
 }
+
+.under-job {
+    display: flex;
+    justify-content: center;
+}
+
+.git-hub-btn {
+    height: 50px;
+    margin-left: -20px;
+}
+
+.img-links-btn:hover {
+    border: 3px solid lightblue;
+    background: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+.linked-in-btn {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.home-footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+    display: grid;
+    padding: 5px 0 5px;
+    color: white;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20px;
+    text-align: center;
+}
+
+@media (max-device-width:480px ) {
+   .name {
+    font-size: 60px;
+    text-align: center;
+   }
+   .job {
+    font-size: 35px;
+    margin-top: 30px;
+   }
+   }

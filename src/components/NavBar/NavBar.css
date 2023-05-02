@@ -20,4 +20,21 @@ nav {
 
 .links:hover {
     color: aqua;
+    text-decoration: underline;
+    transition: 500ms;
 }
+
+.nav-logo {
+    height: 60px;
+    display: flex;
+    float: left;
+}
+
+@media (max-device-width:480px ) {
+    .links {
+        font-size: 13px;
+    }
+    .nav-logo {
+        height: 40px;
+    }
+   }
