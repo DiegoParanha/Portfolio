@@ -1,0 +1,44 @@
+.page-title {
+    color: white;
+    text-align: center;
+}
+.contact-form {
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 5fr 1fr; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-background {
+    display: flex;
+    justify-content: center;
+    border: solid 2px white;
+    box-shadow: 1px 1px 10px 10px #e7e0e0, 1px 1px 10px 10px #d2cbcb, 1px 1px 10px 10px #935555, 1px 1px 20px 5px #3f3d3d;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10vh 400px 0px 400px;
+}
+
+#name-input {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#email-input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+.contact-submit {
+    margin-top: 10px; 
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.contact-submit:hover {
+    color: white;
+    background: rgb(32, 32, 32);
+    border: 2px solid lightblue;
+
+}

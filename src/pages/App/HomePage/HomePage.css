@@ -1,0 +1,24 @@
+.container {
+    margin-top: 35vh;
+
+}
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+.job {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: -60px;
+}

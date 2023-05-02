@@ -1,0 +1,23 @@
+nav {
+    background-color: black;
+    color: white;
+    height: 4vh;
+}
+
+.section {
+    display: flex;
+    justify-content: right;
+    position: relative; 
+    top: 15px;
+}
+
+.links {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: aqua;
+}

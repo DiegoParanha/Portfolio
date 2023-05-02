@@ -2,3 +2,17 @@
 * {
   box-sizing: border-box
 }
+
+html {
+  height: 100vh;
+  width: 100vw;
+  /* background: url(https://i.pinimg.com/originals/b9/5d/0f/b95d0fbedbf650b89095842e0e7f44da.jpg); */
+  /* background: url(https://rare-gallery.com/uploads/posts/547224-landscape-wallpaper.gif); */
+  /* background: url(https://cdn.wallpapersafari.com/61/70/rMqGum.gif); */
+  /* background: url(https://wallpapercave.com/wp/wp2856288.gif); */
+  /* background: url(https://miro.medium.com/v2/resize:fit:1400/1*S1suzss82Tbb5wO02lHH_g.gif); */
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/26bcbe81-a3fa-43da-8b10-7b37ce15b07d/demdyla-5c43f79c-b70a-4fd7-bf23-848883140ae6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI2YmNiZTgxLWEzZmEtNDNkYS04YjEwLTdiMzdjZTE1YjA3ZFwvZGVtZHlsYS01YzQzZjc5Yy1iNzBhLTRmZDctYmYyMy04NDg4ODMxNDBhZTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.znQzGkeCg0xHnVXotF6eMsJwxyqIt3Xp9KrqSFgYEFs);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
