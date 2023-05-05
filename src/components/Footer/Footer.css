@@ -1,0 +1,38 @@
+.footer {
+    height: 10vh;
+    position: fixed;
+    bottom: 30px;
+    padding: 5px 0 5px;
+    color: white;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.underFoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 {
+    height: 14px;
+}
+
+.group-2 {
+    display: flex;
+    padding: 5px 0 5px;
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+}
+
+
+@media (max-device-width:480px ) {
+    .footer2 {
+        font-size: 11px;
+    }
+    .img-links-btn {
+        height: 5px;
+        margin: 0 15px 0 15px;
+    }
+    }

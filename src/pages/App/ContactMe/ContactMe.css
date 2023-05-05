@@ -50,22 +50,10 @@
 
 }
 
-.footer {
-    width: 100vw;
-    position: fixed;
-    bottom: 30px;
-    display: grid;
-    padding: 5px 0 5px;
-    color: white;
-    flex-direction: column;
-    grid-template-rows: 1fr 1fr;
-    padding-left: 20px;
-  }
-
-  .img-links-btn {
+.img-links-btn {
     height: 50px;
     margin: 0 15px 0 15px;
-  }
+}
 
 @media (max-device-width:480px ) {
  .contact-background {

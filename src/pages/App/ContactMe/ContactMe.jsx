@@ -1,15 +1,6 @@
 import './ContactMe.css'
 import Footer from '../../../components/Footer/Footer'
 
-const terms2 = [
-    'Coachable',
-    'Cooperative',
-    'Organized',
-    'Outgoing',
-    'Curious',
-    'Passionate',
-    'Driven'
-]
 
 export default function ContactMe() {
     return (
