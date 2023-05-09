@@ -49,11 +49,6 @@
 
 }
 
-.img-links-btn {
-    height: 50px;
-    margin: 0 15px 0 15px;
-}
-
 @media (max-device-width:480px ) {
  .contact-background {
     margin-left: -1vw;
@@ -62,11 +57,5 @@
  }
  .contact-form {
     width: 50vw;
- }
-
- .group-2 {
-    display: flex;
-    justify-content: center;
-    padding-right: 60px;
  }
 }
