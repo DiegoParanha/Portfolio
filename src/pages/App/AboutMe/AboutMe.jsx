@@ -79,7 +79,7 @@ export default function AboutMe() {
             </div>
         </div>
 
-        <Footer />
+        <div className="invis-foot"><Footer /></div>
         </>
     )
 }

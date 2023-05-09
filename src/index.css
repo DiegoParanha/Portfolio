@@ -3,8 +3,13 @@
   box-sizing: border-box
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 
 html {
+  flex-grow: 1;
   height: 100vh;
   width: 100vw;
   /* background: url(https://i.pinimg.com/originals/b9/5d/0f/b95d0fbedbf650b89095842e0e7f44da.jpg); */

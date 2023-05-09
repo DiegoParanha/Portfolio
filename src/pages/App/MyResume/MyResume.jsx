@@ -13,7 +13,7 @@ export default function MyResume() {
         <PDFDownloadLink document={<PDFFile />} fileName="Diegos-resume">
             {({loading}) => (loading ? <button className="resumeBtn">loading document...</button> : <button className="resumeBtn">➔Download CV</button>)}
         </PDFDownloadLink>
-        <Footer />
+        <div className='resume-foot'><Footer /></div>
         </>
     )
 }

@@ -7,7 +7,7 @@ export default function MyProjects() {
         <div className="">
             <h1 className='page-title'>My Projects</h1>
         </div>
-        <Footer />
+        <div className="invis-foot"><Footer /></div>
         </>
     )
 }
