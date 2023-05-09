@@ -56,6 +56,8 @@
     height: 30px;
 }
 .languages-div {
+    width: 80vw;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     border-bottom: solid 2px black;
@@ -74,6 +76,8 @@
     height: 30px;
 }
 .frameWorks-div {
+    width: 80vw;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-bottom: solid 2px black;
@@ -91,6 +95,8 @@
     justify-content: center;
 }
 .tools-div {
+    width: 80vw;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border-bottom: solid 2px black;
@@ -133,14 +139,17 @@
         max-height: 1vh;
     }
     .languages-div {
+        width: 75vw;
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr; 
     }
     .frameWorks-div {
+        width: 75vw;
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr; 
     }
     .tools-div {
+        width: 75vw;
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr; 
     }
@@ -152,8 +161,5 @@
     }
     .frameWorks {
         margin: 0 15px 0 15px;
-    }
-    .page-title {
-        padding-top: 0px;
-    }   
+    } 
 }

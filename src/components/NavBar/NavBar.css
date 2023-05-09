@@ -32,7 +32,7 @@ nav {
 
 @media (max-device-width:480px ) {
     .links {
-        font-size: 13px;
+        font-size: 12px;
     }
     .nav-logo {
         height: 40px;

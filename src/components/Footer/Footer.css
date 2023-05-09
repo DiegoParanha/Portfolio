@@ -1,12 +1,13 @@
 .footer {
     height: 10vh;
     position: fixed;
-    bottom: 30px;
+    bottom: 10px;
     padding: 5px 0 5px;
     color: white;
     padding-left: 20px;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    z-index: -1;
 }
 
 .underFoot {
