@@ -2,3 +2,61 @@
     color: white;
     text-align: center;
 }
+.project-section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-container {
+    display: grid;
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 1px 1px 5px 5px #e7e0e0, 1px 1px 5px 5px #d2cbcb, 1px 1px 5px 5px #935555, 1px 1px 5px 5px #3f3d3d;
+}
+
+.project-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 15px;
+}
+.project-title {
+    color: aqua;
+}
+
+.project-img-main {
+    border: solid 5px black;
+    border-radius: 10px;
+    width: 50vmin;
+    margin-top: 10px;
+}
+
+.project-desc {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 10px;
+    color: white;
+}
+.project-under {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.project-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.project-inner-btns {
+    height: 5vmin;
+    width: 5vmin;
+    margin: 10px;
+}
+
+.project-inner-btns:hover {
+    background: rgb(32, 32, 32);
+    border: 2px solid lightblue;
+}

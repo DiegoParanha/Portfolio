@@ -5,9 +5,9 @@ export default function Footer() {
         <>
         <footer className='footer'>
         <div className='underFoot'>
-            <p className="footer2">➡️ Get in touch with me via phone, email, or by the form!</p>
-            <p className="footer2">📩 Diegoparanhos14@gmail.com</p>
-            <p className="footer2">📞 (310)-701-5367</p>
+            <div className="footer2">📩 Diegoparanhos14@gmail.com &nbsp; | </div>
+            <div className="footer2">📞 (310)-701-5367 &nbsp; | </div>
+            <div className="footer2">Los Angeles, CA</div>
         </div>
         <div className='group-2'>
             <a href="https://github.com/DiegoParanha"><img className="img-links-btn"src="white-github.png" alt="" /></a>

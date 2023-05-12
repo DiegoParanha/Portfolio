@@ -23,8 +23,8 @@
 }
 
 .img-me {
-    height: 25vmin;
-    width: 25vmin;
+    height: 20vmin;
+    width: 20vmin;
 }
 
 .words {
@@ -108,11 +108,12 @@
     display: flex;
     justify-content: center;
     height: 30px;
-    margin-right: 5px;
+    margin-right: 3px;
 }
 
 @media (max-device-width:480px ) {
     .words {
+        padding-left: 10px;
         font-size: 15px;
     }
     .name-2 {
@@ -135,34 +136,35 @@
         font-size: 20px;
     }
     .skill {
-        margin-left: 5px;
+        padding-left: 2px;
         max-height: 1vh;
     }
     .languages-div {
-        width: 75vw;
+        width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .frameWorks-div {
-        width: 75vw;
+        width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .tools-div {
-        width: 75vw;
+        width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .tools {
-        margin: 0 15px 0 15px;
+        margin: 10px 15px 0 15px;
     }
     .languages {
         margin: 0 15px 0 15px;
     }
     .frameWorks {
-        margin: 0 15px 0 15px;
+        margin: 10px 15px 0 15px;
     } 
     .invis-foot {
-        visibility: hidden;
+        /* visibility: hidden; */
+        z-index: -1;
     }
 }
