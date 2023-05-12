@@ -77,7 +77,7 @@ export default function MyProjects() {
                 </div>
             </div>
         </div>
-        <div className="invis-foot"><Footer /></div>
+        <div className="fixed-foot">super secret text<Footer /></div>
         </>
     )
 }

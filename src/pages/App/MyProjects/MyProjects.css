@@ -2,11 +2,17 @@
     color: white;
     text-align: center;
 }
+
+.fixed-foot {
+    margin-top: 100px;
+}
+
 .project-section {
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .project-container {
@@ -37,6 +43,7 @@
     justify-content: center;
     align-self: center;
     padding-left: 10px;
+    padding-right: 10px;
     color: white;
 }
 .project-under {
@@ -60,3 +67,14 @@
     background: rgb(32, 32, 32);
     border: 2px solid lightblue;
 }
+
+@media (max-device-width:480px ) {
+    .project-info {
+        grid-template-rows: 0.35fr 1fr;
+    }
+    .project-desc {
+        padding-bottom: 5px;
+        border-bottom: 2px solid white;
+    }
+
+    }
