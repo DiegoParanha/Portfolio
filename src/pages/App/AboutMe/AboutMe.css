@@ -142,17 +142,17 @@
     .languages-div {
         width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .frameWorks-div {
         width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .tools-div {
         width: 90vw;
         display: grid;
-        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; 
     }
     .tools {
         margin: 10px 15px 0 15px;

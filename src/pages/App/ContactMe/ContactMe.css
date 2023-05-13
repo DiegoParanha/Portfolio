@@ -51,8 +51,8 @@
 
 @media (max-device-width:480px ) {
  .contact-background {
-    margin-left: -1vw;
-    margin-right: -1vw;
+    margin-left: 50px;
+    margin-right: 50px;
 
  }
  .contact-form {

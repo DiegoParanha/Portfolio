@@ -38,12 +38,20 @@
     margin-top: 10px;
 }
 
+.project-img-main:hover {
+    border: solid 5px white;
+    border-radius: 10px;
+    width: 70vmin;
+    margin-top: 10px;
+    transition: 600ms ease-in-out
+}
+
 .project-desc {
     display: flex;
     justify-content: center;
     align-self: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     color: white;
 }
 .project-under {
@@ -55,6 +63,9 @@
 .project-btns {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-top: 2px solid white;
 }
 
 .project-inner-btns {
@@ -63,10 +74,15 @@
     margin: 10px;
 }
 
+
+
 .project-inner-btns:hover {
-    background: rgb(32, 32, 32);
-    border: 2px solid lightblue;
+    transition: 500ms ease-in-out;
+    height: 7vmin;
+    width: 7vmin;
+    transform: rotate(360deg);
 }
+
 
 @media (max-device-width:480px ) {
     .project-info {
@@ -74,7 +90,20 @@
     }
     .project-desc {
         padding-bottom: 5px;
-        border-bottom: 2px solid white;
+    }
+    .project-under {
+        margin: 0 10px 10px 10px;
+    }
+    .project-inner-btns {
+        height: 10vmin;
+        width: 10vmin;
+    }
+    .project-img-main:hover {
+        border: solid 5px white;
+        border-radius: 10px;
+        width: 60vmin;
+        margin-top: 10px;
+        transition: 600ms ease-in-out
     }
 
     }

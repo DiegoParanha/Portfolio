@@ -1,6 +1,14 @@
 /* CSS Custom Properties */
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans:wght@300&display=swap');
+
 * {
   box-sizing: border-box
+}
+
+body, html {
+  font-family: 'Taviraj', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {

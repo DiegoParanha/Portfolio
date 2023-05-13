@@ -6,7 +6,7 @@ const terms = [
     'Gamer',
     'Coffee Enjoyer',
     'Dog Lover', 
-    'Film Enthusiest',
+    'Film Enthusiast',
     'Passionate about tech'
 ]
 
