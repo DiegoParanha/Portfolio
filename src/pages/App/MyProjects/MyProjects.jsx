@@ -7,6 +7,7 @@ export default function MyProjects() {
         <div className="">
             <h1 className='page-title'>My Projects</h1>
         </div>
+        <div className='all-projects'>
         <div className='project-section'>
             <h1 className='project-title'>Movielo</h1>
             <div className='project-container'>
@@ -76,6 +77,7 @@ export default function MyProjects() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div className="fixed-foot">super secret text<Footer /></div>
         </>

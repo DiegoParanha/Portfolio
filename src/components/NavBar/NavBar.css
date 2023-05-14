@@ -30,6 +30,19 @@ nav {
     float: left;
 }
 
+   /* @media (max-device-width:2100px ) {
+
+} */
+
+/* @media (min-device-width:1440px ) {
+
+} */
+
+/* @media (max-device-width:770px ) {
+
+
+    } */
+
 @media (max-device-width:480px ) {
     .links {
         font-size: 12px;
@@ -37,4 +50,4 @@ nav {
     .nav-logo {
         height: 40px;
     }
-   }
+}

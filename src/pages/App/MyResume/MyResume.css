@@ -22,6 +22,20 @@
     border: 2px solid lightblue;
 }
 
+
+/* @media (max-device-width:2100px ) {
+
+} */
+
+/* @media (min-device-width:1440px ) {
+
+} */
+
+/* @media (max-device-width:770px ) {
+
+
+    } */
+
 @media (max-device-width:480px ) {
     .resume {
         height: 65vh;
@@ -30,4 +44,4 @@
     .resume-foot {
         margin-top: 40px;
     }
-    }
+}

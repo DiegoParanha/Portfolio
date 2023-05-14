@@ -49,14 +49,26 @@
 
 }
 
+
+/* @media (max-device-width:2100px ) {
+
+} */
+
+/* @media (min-device-width:1440px ) {
+
+} */
+
+/* @media (max-device-width:770px ) {
+
+
+    } */
+
 @media (max-device-width:480px ) {
- .contact-background {
-    margin-left: 50px;
-    margin-right: 50px;
-
- }
- .contact-form {
-    width: 50vw;
- }
-
+    .contact-background {
+        margin-left: 50px;
+        margin-right: 50px;
+        }
+        .contact-form {
+        width: 50vw;
+        }
 }
