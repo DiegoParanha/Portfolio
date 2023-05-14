@@ -144,7 +144,7 @@
     .project-img-main:hover {
         border: solid 5px white;
         border-radius: 10px;
-        width: 80vmin;
+        width: 70vmin;
         margin-top: 10px;
         transition: 600ms ease-in-out
     }
