@@ -50,9 +50,16 @@
 }
 
 
-/* @media (max-device-width:2100px ) {
-
-} */
+@media (min-device-width:2100px ) {
+    .contact-background {
+        margin-left: 70vmin;
+        margin-right: 70vmin;
+        }
+    .contact-form {
+        height: 20vh;
+        width: 80vw;
+    }
+}
 
 /* @media (min-device-width:1440px ) {
 
@@ -67,8 +74,8 @@
     .contact-background {
         margin-left: 50px;
         margin-right: 50px;
-        }
-        .contact-form {
+    }
+    .contact-form {
         width: 50vw;
-        }
+    }
 }

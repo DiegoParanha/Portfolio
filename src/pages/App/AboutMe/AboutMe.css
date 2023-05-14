@@ -5,26 +5,25 @@
 
 .name-2 {
     color: aqua;
+    display: flex;
+    justify-content: center;
 }
 
 .intro {
     /* display: grid;
     grid-template-columns: 0.20fr 1fr;
     padding-left: 30px; */
-    display: grid;
-    grid-template-columns: 0.1fr 1fr;
     padding-right: 15px;
-    padding-left: 450px;
+    display: grid;
+    padding-left: 50px;
 }
 
 .intro-2 {
     margin-left: 10px;
-    padding-right: 500px;
 }
 
 .intro-desc {
     color: white;
-    font-size: 25px;
 }
 
 .img-me {
@@ -61,8 +60,7 @@
     height: 30px;
 }
 .languages-div {
-    /* width: 80vw; */
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
@@ -82,8 +80,7 @@
     height: 30px;
 }
 .frameWorks-div {
-    /* width: 80vw; */
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -102,8 +99,7 @@
     justify-content: center;
 }
 .tools-div {
-    /* width: 80vw; */
-    width: 50vw;
+    width: 80vw;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -115,75 +111,34 @@
 .logo {
     display: flex;
     justify-content: center;
-    height: 60px;
+    height: 30px;
     margin-right: 3px;
 }
 
 
-@media (max-device-width:1440px ) {
+@media (min-device-width:2100px ) {
     .intro {
         display: grid;
-        grid-template-columns: 0.20fr 1fr;
-        padding-left: 200px;
+        grid-template-columns: 0.1fr 1fr;
+        padding-left: 450px;
     }
     .intro-2 {
-        padding-right: 100px;
+        padding-right: 500px;
     }
-    .intro-desc {
-        font-size: 20px;
-    }
-    .languages-div {
-        width: 50vw;
-    }
-    .frameWorks-div {
-        width: 50vw;
-    }
-    .tools-div {
-        width: 50vw;
-    }
-    .logo {
-        height: 40px;
-    }
-} 
 
-@media (max-device-width:1024px ) {
-    .intro {
-        padding-left: 100px;
-    }
-    .intro-desc {
-        font-size: 15px;
-    }
     .languages-div {
-        width: 55vw;
+        width: 40vw;
     }
     .frameWorks-div {
-        width: 55vw;
+        width: 40vw;
     }
     .tools-div {
-        width: 55vw;
+        width: 40vw;
     }
     .logo {
         height: 50px;
     }
-}
-
-@media (max-device-width:770px ) {
-    .intro-desc {
-        font-size: 13px;
-    }
-    .languages-div {
-        width: 70vw;
-    }
-    .frameWorks-div {
-        width: 70vw;
-    }
-    .tools-div {
-        width: 70vw;
-    }
-    .logo {
-        height: 45px;
-    }
-}
+} 
 
 @media (max-device-width:480px ) {
     .words {
@@ -197,7 +152,8 @@
         padding-left: 0;
     }
     .intro-desc {
-        width: 70vw;
+        padding-left: 30px;
+        padding-right: 30px;
         font-size: 10px;
     }
     .skills-language {
@@ -237,8 +193,4 @@
     .frameWorks {
         margin: 10px 15px 0 15px;
     } 
-    .invis-foot {
-        /* visibility: hidden; */
-        z-index: -1;
-    }
 }
