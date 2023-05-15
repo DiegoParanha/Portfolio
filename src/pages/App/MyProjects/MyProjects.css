@@ -141,7 +141,7 @@
 
 @media (max-device-width:480px ) {
     .project-info {
-        grid-template-rows: 0.35fr 1fr;
+        grid-template-rows: 0.20fr 1fr;
     }
     .project-container {
         margin-left: 30px;
@@ -153,7 +153,9 @@
         padding-bottom: 5px;
     }
     .project-under {
-        margin: 0 0 3px 0;
+        align-self: center;
+        font-size: 13px;
+        margin: 0 0 5px 0;
     }
     .project-inner-btns {
         height: 10vmin;
