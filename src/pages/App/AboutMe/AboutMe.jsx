@@ -81,7 +81,7 @@ export default function AboutMe() {
                 </div>
             </div>
         </div>
-
+        <div className='secret-text'>super secret text</div>
         <div className="invis-foot"><Footer /></div>
         </>
     )

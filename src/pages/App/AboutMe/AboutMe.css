@@ -31,13 +31,13 @@
 
 .intro-desc2 {
     font-size: 19px;
-    margin-top: 19px;
+    margin-top: 15px;
     color: white;
 }
 
 .intro-desc3 {
     font-size: 19px;
-    margin-top: 19px;
+    margin-top: 15px;
     color: white;
 }
 
@@ -130,6 +130,11 @@
     margin-right: 3px;
 }
 
+.secret-text {
+    color: transparent;
+    font-size: 100px;
+}
+
 
 @media (min-device-width:2100px ) {
     .intro {
@@ -218,9 +223,26 @@
         padding-left: 10px;
         font-size: 15px;
     }
+    .project-under {
+        margin-bottom: 2px;
+    }
+    .intro-2 {
+        margin-left: 30px;
+    }
+    .intro-desc {
+        font-size: 14px;
+    }
+    .intro-desc2 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .intro-desc3 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
     .img-me {
-        height: 45vmin;
-        width: 45vmin;
+        height: 40vmin;
+        width: 40vmin;
     }
     .name-2 {
         font-size: 20px;
