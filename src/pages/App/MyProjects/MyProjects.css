@@ -17,14 +17,13 @@
 
 .project-container {
     display: grid;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
     /* box-shadow: 1px 1px 5px 5px #e7e0e0, 1px 1px 5px 5px #d2cbcb, 1px 1px 5px 5px #935555, 1px 1px 5px 5px #3f3d3d; */
 }
 
 .project-info {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     margin-top: 15px;
 }
 .project-title {
@@ -32,16 +31,14 @@
 }
 
 .project-img-main {
-    border: solid 5px black;
     border-radius: 10px;
     width: 50vmin;
-    margin-top: 10px;
 }
 
 .project-img-main:hover {
     border: solid 5px white;
     border-radius: 10px;
-    width: 70vmin;
+    width: 55vmin;
     margin-top: 10px;
     transition: 600ms ease-in-out
 }
@@ -78,8 +75,8 @@
 
 .project-inner-btns:hover {
     transition: 500ms ease-in-out;
-    height: 7vmin;
-    width: 7vmin;
+    height: 6vmin;
+    width: 6vmin;
     transform: rotate(360deg);
 }
 
@@ -88,6 +85,9 @@
     .all-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .project-under {
+        margin-bottom: 10px;
     }
     .project-section {
         justify-content: flex-start;
@@ -99,7 +99,7 @@
     }
 }
 
-/* @media (min-device-width:1440px ) {
+@media (max-device-width:1440px ) {
     .project-info {
         grid-template-rows: 0.35fr 1fr;
     }
@@ -110,8 +110,8 @@
         margin: 0 10px 10px 10px;
     }
     .project-inner-btns {
-        height: 10vmin;
-        width: 10vmin;
+        height: 5vmin;
+        width: 5vmin;
     }
     .project-img-main:hover {
         border: solid 5px white;
@@ -120,16 +120,32 @@
         margin-top: 10px;
         transition: 600ms ease-in-out
     }
-} */
+}
 
-/* @media (max-device-width:770px ) {
-
-
-    } */
+@media (max-device-width:770px ) {
+    .project-info {
+        display: grid;
+    }
+    .project-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .project-under {
+        margin-bottom: 15px
+    }
+    .project-inner-btns {
+        height: 6vmin;
+        width: 6vmin;
+    }
+}
 
 @media (max-device-width:480px ) {
     .project-info {
         grid-template-rows: 0.35fr 1fr;
+    }
+    .project-container {
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .project-desc {
         padding-left: 2px;

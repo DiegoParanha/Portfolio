@@ -43,7 +43,7 @@
 
 } */
 
-/* @media (min-device-width:1440px ) {
+@media (max-device-width:1440px ) {
         .underFoot {
             font-size: 15px;
             display: flex;
@@ -55,12 +55,12 @@
         .intro-desc {
             padding-right: 10px;
         }
-} */
+}
 
-/* @media (max-device-width:770px ) {
+@media (max-device-width:770px ) {
 
 
-    } */
+    }
 
 @media (max-device-width:480px ) {
     .underFoot {

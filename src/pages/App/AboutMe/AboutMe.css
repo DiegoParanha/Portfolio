@@ -15,14 +15,29 @@
     padding-left: 30px; */
     padding-right: 15px;
     display: grid;
-    padding-left: 50px;
+    grid-template-columns: 0.1fr 1fr;
+    padding-left: 400px;
 }
 
 .intro-2 {
+    margin-right: 25vw;
     margin-left: 10px;
 }
 
 .intro-desc {
+    font-size: 19px;
+    color: white;
+}
+
+.intro-desc2 {
+    font-size: 19px;
+    margin-top: 19px;
+    color: white;
+}
+
+.intro-desc3 {
+    font-size: 19px;
+    margin-top: 19px;
     color: white;
 }
 
@@ -122,39 +137,96 @@
         grid-template-columns: 0.1fr 1fr;
         padding-left: 450px;
     }
-    .intro-2 {
-        padding-right: 500px;
+    .name-2 {
+        justify-content: flex-start;
     }
-
     .languages-div {
-        width: 40vw;
+        width: 25vw;
     }
     .frameWorks-div {
-        width: 40vw;
+        width: 25vw;
     }
     .tools-div {
-        width: 40vw;
+        width: 25vw;
     }
     .logo {
         height: 50px;
     }
 } 
 
+@media (max-device-width:1440px ) {
+    .intro {
+        display: grid;
+        /* flex-direction: column; */
+        grid-template-columns: 0.1fr 1fr;
+        padding-left: 100px;
+    }
+    .intro-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10vw;
+    }
+    .name-2 {
+        justify-content: flex-start;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .languages-div {
+        width: 65vw;
+    }
+    .frameWorks-div {
+        width: 65vw;
+    }
+    .tools-div {
+        width: 65vw;
+    }
+    .logo {
+        height: 50px;
+    }
+}
+
+@media (max-device-width:770px ) {
+    .intro {
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 0.1fr 1fr; */
+        padding-left: 0px;
+    }
+    .name-2 {
+        justify-content: center;
+    }
+    .intro-2 {
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .intro-desc {
+        font-size: 15px;
+    }
+    .intro-desc2 {
+        font-size: 15px;
+    }
+    .intro-desc3 {
+        font-size: 15px;
+    }
+
+}
+
 @media (max-device-width:480px ) {
     .words {
         padding-left: 10px;
         font-size: 15px;
+    }
+    .img-me {
+        height: 45vmin;
+        width: 45vmin;
     }
     .name-2 {
         font-size: 20px;
     }
     .intro {
         padding-left: 0;
-    }
-    .intro-desc {
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 10px;
     }
     .skills-language {
         font-size: 20px;
@@ -193,4 +265,7 @@
     .frameWorks {
         margin: 10px 15px 0 15px;
     } 
+    .logo {
+        height: 30px;
+    }
 }

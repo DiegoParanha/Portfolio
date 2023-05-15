@@ -36,9 +36,12 @@ export default function AboutMe() {
         <h2 className='words'><img className="img-me"src="me.jpeg" alt="" />{terms2[currentIndex]}</h2>
             <div className='intro-2'>
                 <h1 className='name-2'>Diego Paranhos 🇺🇸  🇧🇷</h1>
-                <div className='intro-desc'>As a software engineer specializing in organization and management, my top priority is to ensure that projects are executed collaboratively. I firmly believe that collaboration is essential for the success of any project, especially in the software engineering industry. Effective collaboration involves a shared understanding of project objectives, open and honest communication, and a willingness to work together towards a common goal. To achieve this, I use a variety of tools and techniques to keep my team organized and focused, including project management software, agile methodologies, and regular check-ins. By prioritizing project collaboration, I believe that my team and I can deliver high-quality software solutions that meet the needs of our clients and help drive their businesses forward.</div>
+                <div className='intro-desc'>From graduating as a Film, Media and Television major I made a transition into the software development world and it has sparked an intrest in me like never before, 
+                I realized that my true passion lay in technology and software development.While the transition was challenging, I found that my creativity and attention to detail from my previous studies translated well into my new career.</div>
+                <div className='intro-desc2'>Coming from a non-technical background, I choose to pursue Software Engineering because it is rewarding, challenging, and always evolving. </div>
+                <div className='intro-desc3'>I'm eager to enter a field that is ever-changing, where my self-starter skills and curiosity bring value.</div>
+                </div>
             </div>
-        </div>
         <div className='skills'>
             <div className='languages'>
                 <h1 className='skills-language'>Languages</h1>
