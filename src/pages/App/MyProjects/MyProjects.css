@@ -54,7 +54,7 @@
 .project-under {
     display: flex;
     justify-content: center;
-    color: white;
+    color:oldlace;
 }
 
 .project-btns {
@@ -144,8 +144,8 @@
         grid-template-rows: 0.35fr 1fr;
     }
     .project-container {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .project-desc {
         padding-left: 2px;
@@ -153,7 +153,7 @@
         padding-bottom: 5px;
     }
     .project-under {
-        margin-bottom: 4px;
+        margin: 0 0 3px 0;
     }
     .project-inner-btns {
         height: 10vmin;
