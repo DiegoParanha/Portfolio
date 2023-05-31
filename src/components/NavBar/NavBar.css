@@ -43,9 +43,9 @@ nav {
 
     } */
 
-@media (max-device-width:480px ) {
+@media screen and (max-width:480px ) {
     .links {
-        font-size: 12px;
+        font-size: 11px;
     }
     .nav-logo {
         height: 40px;

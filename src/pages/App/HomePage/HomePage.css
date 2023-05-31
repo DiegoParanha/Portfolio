@@ -59,7 +59,7 @@
 
 
 
-@media (max-device-width:1440px ) {
+@media screen and (max-width:1440px ) {
    .name {
     font-size: 90px;
     text-align: center;
@@ -70,14 +70,14 @@
    }
 }
 
-@media (max-device-width:770px ) {
+@media screen and (max-width:770px ) {
     .name {
         font-size: 70px;
     }
 
 }
 
-@media (max-device-width:480px ) {
+@media screen and (max-width:480px ) {
     .name {
     font-size: 60px;
     text-align: center;

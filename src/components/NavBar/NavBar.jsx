@@ -13,7 +13,7 @@ export default function NavBar({ user, setUser }) {
       <img className="nav-logo" src="DP-logo.png" alt="" />
       <div className="section">
         <Link className="links" to="/">Home</Link>
-        &nbsp;  &nbsp; &nbsp;
+        &nbsp;  &nbsp;
         <Link className="links" to="/about">About Me</Link>
         &nbsp;  &nbsp; &nbsp;
         <Link className="links" to="/projects">Projects</Link>

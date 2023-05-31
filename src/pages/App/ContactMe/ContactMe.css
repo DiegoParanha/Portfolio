@@ -66,14 +66,14 @@
     }
 } */
 
-@media (max-device-width:1440px ) {
+@media screen and (max-width:1440px ) {
     .contact-background {
         margin-left: 30vw;
         margin-right: 30vw;
     }
 }
 
-@media (max-device-width:770px ) {
+@media screen and (max-width:770px ) {
     .contact-background {
         margin-left: 20vw;
         margin-right: 20vw;
@@ -81,7 +81,7 @@
 
 }
 
-@media (max-device-width:480px ) {
+@media screen and (max-width:480px ) {
     .contact-background {
         margin-left: 50px;
         margin-right: 50px;

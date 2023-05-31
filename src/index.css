@@ -20,6 +20,7 @@ body {
 }
 
 html {
+  color-scheme: light dark;
   flex-grow: 1;
   height: 100vh;
   width: 100vw;
